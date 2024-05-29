@@ -8,10 +8,11 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
+            padding: 10px;
             display: flex;
             flex-direction: column;
             align-items: center;
+            background-color: #F3F3FC;
         }
         header {
             display: flex;
@@ -36,32 +37,22 @@
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
-            padding: 20px;
+            padding: 2px;
             width: 100%;
             max-width: 800px;
         }
         .content .text {
             display: flex;
             flex-direction: column;
-            max-width: 60%;
+            max-width: 50%;
         }
         .content .main-text {
-            margin-bottom: 2px;
+            margin-bottom: 1px;
+            font-size: 20px;
         }
-        .content .points {
-            display: flex;
-            flex-direction: column;
-        }
-        .content .point {
-            display: flex;
-            align-items: center;
-            margin-bottom: 2px;
-            padding: 4px;
-        }
-        .content .point img {
-            height: 34px;
-            width: 34px;
-            margin-right: 10px;
+        .content .secondary-text {
+            margin-bottom: 1px;
+            font-size: 18px;
         }
         .content .image {
             max-width: 50%;
@@ -120,21 +111,10 @@
 <div class="content">
     <div class="text">
         <div class="main-text">
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't.</p>
         </div>
-        <div class="points">
-            <div class="point">
-                <img src="images/ic_generate.svg" alt="Generate">
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical.</p>
-            </div>
-            <div class="point">
-                <img src="images/ic_add.svg" alt="Add">
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical.</p>
-            </div>
-            <div class="point">
-                <img src="images/ic_new.svg" alt="New">
-                <p>ТContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical.</p>
-            </div>
+        <div class="secondary-text">
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
         </div>
     </div>
     <div class="image">
