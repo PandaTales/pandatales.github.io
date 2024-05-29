@@ -8,7 +8,6 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 10px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -16,9 +15,16 @@
         }
         header {
             display: flex;
+            align-items: center;
+            width: 100%;
+            background-color: #7774be;
+            justify-content: center;
+        }
+        header .header-content {
+            display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 20px 20px;
+            padding: 10px;
             width: 100%;
             max-width: 800px;
         }
@@ -28,7 +34,7 @@
         header .top-links a {
             margin-left: 15px;
             text-decoration: none;
-            color: #000000;
+            color: #F3F3FC;
         }
         header img {
             height: 80px;
@@ -37,7 +43,9 @@
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
-            padding: 2px;
+            padding-top: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
             width: 100%;
             max-width: 800px;
         }
@@ -102,10 +110,12 @@
 </head>
 <body>
 <header>
-    <img src="images/ic_logo.png" alt="Logo">
-    <div class="top-links">
-        <a href="policy.html">Privacy policy</a>
-        <a href="terms.html">Terms of use</a>
+    <div class="header-content">
+        <img src="images/ic_logo.png" alt="Logo">
+        <div class="top-links">
+            <a href="policy.html">Privacy policy</a>
+            <a href="terms.html">Terms of use</a>
+        </div>
     </div>
 </header>
 <div class="content">
