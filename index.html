@@ -1,11 +1,160 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PandaTales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 20px;
+            background-color: #7774be;
+            width: 100%;
+            max-width: 800px;
+        }
+        header .top-links {
+            align-self: flex-start;
+        }
+        header .top-links a {
+            margin-left: 15px;
+            text-decoration: none;
+            color: #007bff;
+        }
+        header img {
+            height: 100px;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 20px;
+            width: 100%;
+            max-width: 800px;
+        }
+        .content .text {
+            display: flex;
+            flex-direction: column;
+            max-width: 60%;
+        }
+        .content .main-text {
+            margin-bottom: 20px;
+        }
+        .content .points {
+            display: flex;
+            flex-direction: column;
+        }
+        .content .point {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .content .point img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        .content .image {
+            max-width: 35%;
+        }
+        .content .image img {
+            height: 400px;
+            max-width: 100%;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            width: 100%;
+            max-width: 800px;
+        }
+        .buttons a {
+            display: flex;
+            align-items: center;
+            margin: 0 10px;
+            text-decoration: none;
+            padding: 10px 20px;
+            color: white;
+            border-radius: 10px;
+        }
+        .buttons a img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        .playstore {
+            background-color: #34a853;
+        }
+        .appstore {
+            background-color: #0070c9;
+        }
+        .buttons a .text {
+            display: flex;
+            flex-direction: column;
+        }
+        .buttons a .text .small-text {
+            font-size: 12px;
+        }
+        .buttons a .text .large-text {
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
+</head>
 <body>
-
-    <p><a href="terms.html">Terms of use</a></p>
-    <p><a href="policy.html">Privacy policy</a></p>
-
+<header>
+    <img src="images/ic_logo.png" alt="Logo">
+    <div class="top-links">
+        <a href="policy.html">Privacy policy</a>
+        <a href="terms.html">Terms of use</a>
+    </div>
+</header>
+<div class="content">
+    <div class="text">
+        <div class="main-text">
+            <p>Здесь находится основной текст.</p>
+        </div>
+        <div class="points">
+            <div class="point">
+                <img src="images/ic_generate.svg" alt="Generate">
+                <p>Первый пункт с текстом.</p>
+            </div>
+            <div class="point">
+                <img src="images/ic_add.svg" alt="Add">
+                <p>Второй пункт с текстом.</p>
+            </div>
+            <div class="point">
+                <img src="images/ic_new.svg" alt="New">
+                <p>Третий пункт с текстом.</p>
+            </div>
+        </div>
+    </div>
+    <div class="image">
+        <img src="images/ic_phone.png" alt="Screen">
+    </div>
+</div>
+<div class="buttons">
+    <a href="https://play.google.com/store" class="playstore">
+        <img src="images/ic_googleplay.svg" alt="Google Play">
+        <div class="text">
+            <div class="small-text">Download on the</div>
+            <div class="large-text">Google Play</div>
+        </div>
+    </a>
+    <a href="https://www.apple.com/app-store/" class="appstore">
+        <img src="images/ic_appstore.svg" alt="App Store">
+        <div class="text">
+            <div class="small-text">Download on the</div>
+            <div class="large-text">App Store</div>
+        </div>
+    </a>
+</div>
 </body>
-
 </html>
