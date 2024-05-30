@@ -18,7 +18,7 @@ header .toolbar {
     display: flex;
     padding: 10px;
     width: 100%;
-    max-width: 800px;
+    max-width: 1200px;
     justify-content: space-between;
     align-items: center;
 }
@@ -41,7 +41,7 @@ header a {
     align-items: flex-start;
     padding: 20px;
     width: 100%;
-    max-width: 800px;
+    max-width: 1200px;
 }
 .content .text {
     display: flex;
@@ -69,7 +69,7 @@ header a {
     justify-content: center;
     padding: 20px;
     width: 100%;
-    max-width: 800px;
+    max-width: 1200px;
 }
 .buttons a img {
     height: 50px;
