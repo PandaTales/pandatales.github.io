@@ -47,7 +47,7 @@ header a {
     padding-left: 10px;
     padding-right: 5px;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
 }
 .content .main-text {
     font-size: 20px;
@@ -61,10 +61,12 @@ header a {
     padding-top: 20px;
     padding-left: 5px;
     padding-right: 10px;
-    width: 50%;
+    width: 40%;
     float: right;
 }
 .content .image img {
+    object-fit: contain;
+    width: 100%;
     max-height: 500px;
 }
 
