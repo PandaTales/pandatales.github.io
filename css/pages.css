@@ -31,7 +31,6 @@ header h1 {
 
 .content {
     align-items: flex-start;
-    padding: 20px;
-    width: 100%;
+    width: 95%;
     max-width: 1200px;
 }
